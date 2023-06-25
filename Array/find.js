@@ -5,3 +5,16 @@ let res=a.find((e)=>{
     return e===76
 })
 console.log(res)
+
+
+
+
+let obj=[
+    {name:"Ankit",age:12},
+    {name:"Anuj",age:18},
+    {name:"Sahil",age:32},
+]
+let b=obj.find((e)=>{
+    return e.name==="Ankit"
+}).age
+console.log(b)
